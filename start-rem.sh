@@ -1,1 +1,1 @@
-python3 ./rem/Main.py
+python3 ./Main.py

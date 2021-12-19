@@ -20,4 +20,4 @@ class MessagingManager():
 
     def run(self):
         first_question="Hi, how are you?"
-        Chat("./rem/Chats/chat.template").converse(first_question)
+        Chat("./Chats/chat.template").converse(first_question)

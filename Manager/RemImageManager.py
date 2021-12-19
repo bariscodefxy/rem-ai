@@ -9,7 +9,7 @@ class RemImageManager():
 
 	def showPicture(self):
 		new_width = 100
-		path = f'./rem/Images/{self.rem.current_image}'
+		path = f'./Images/{self.rem.current_image}'
 		try:
 		    image = PIL.Image.open(path)
 		except:
